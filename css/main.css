@@ -162,7 +162,15 @@
     .navbar-brand{
       font-size: 17px !important;
     }
-  .abt_heading{padding:30px !important;font-size: 2em !important;}
+    .shorts {
+      margin:0px;
+    }
+    .short {
+      width: 80%;
+      height:100%;
+    }
+
+    .abt_heading{padding:30px !important;font-size: 2em !important;}
 }
 .drop_bg{
   background-color: rgba(255, 255, 255, 0.5) !important;
