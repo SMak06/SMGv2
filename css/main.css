@@ -84,7 +84,7 @@
 }
 @keyframes example {
     0% {outline: 20px solid rgba(255, 255, 255, 0.0);}
-    100% {outline: 20px solid rgba(255, 255, 255, 0.5);}
+    100% {outline: 20px solid rgba(255, 255, 255, 0.6);}
     /*100% {outline: 20px solid rgba(255, 255, 255, 0.0);}*/
 }
 .navbar-brand{color:white !important;}
@@ -206,7 +206,8 @@
 .pdf-viewer {
   width: 100%;
   height: auto;
-  padding:50px;
+  padding:20px;
+  text-align: center;
 }
 .shorts{
   text-align: center;
@@ -215,4 +216,10 @@
 .about-desc{
   text-align:justify;
   text-align-last: center;
+}
+.pdf_img:hover {
+  outline-offset: -20px;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
