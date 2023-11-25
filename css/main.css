@@ -115,6 +115,9 @@
       display: block;
       visibility: visible;
     }
+    .navbar-nav {
+      margin-top: 25px;
+    }
     .navbar-logo{height:2em;}
     .nav-link {
         margin-top: -35px;
