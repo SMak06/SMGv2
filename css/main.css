@@ -60,10 +60,10 @@
 .navbar .navbar-nav>li>a:hover {
   color: orange !important;
 }
-#nav-icon1, #nav-icon2, #nav-icon3{
+#nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4{
   margin-top: -3px;
 }
-#nav-icon3{margin-left:-10px;}
+#nav-icon3, #nav-icon4{margin-left:-10px;}
 #W-number{
   font-family: sans-serif !important;
   font-size: 16px;
@@ -121,13 +121,13 @@
         margin-left: 5px;
         margin-right: 10px;
     }
-    #nav-icon1, #nav-icon2, #nav-icon3{
+    #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4{
       margin-top: -35px;
     }
     #nav-icon2{
       margin-left: 10px !important;
     }
-    #nav-icon3{
+    #nav-icon3, #nav-icon4{
       margin-left: 0px !important;
     }
     .navbar{
